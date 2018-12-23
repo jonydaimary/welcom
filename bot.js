@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const moment = require('moment');
 const first = require('first');
 const fs = require('fs');
-const prefix = "";
+const prefix = "#";
 client.on('ready', () => {
 
   console.log('╔[════════════════════════════════════]╗');   
@@ -36,12 +36,6 @@ client.on('ready', () => {
 client.on('ready', () => {
 client.user.setActivity("MARCOS.",{type: "Streaming"})
 });
-
-
-client.on('ready', () => {
-});
-
-
 
 
 
